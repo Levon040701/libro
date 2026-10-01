@@ -1,0 +1,89 @@
+article.fashionPost {
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    article.fashionPost {
+        margin-bottom: 3em;
+    }
+}
+
+.fashionPost .postMedia {
+    display: block;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fashionPost .postInfo {
+    display: flex;
+}
+
+.fashionPost .postMeta {
+    width: 120px;
+    padding-top: 1.5rem;
+    text-align: right;
+}
+
+.fashionPost .postMeta p {
+    display: block;
+    font-size: 16px;
+}
+
+.fashionPost .postMeta p span {
+    display: block;
+}
+
+.fashionPost .postMeta p span a {
+    color: black;
+}
+
+.fashionPost .postMeta p span a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.fashionPost .postMeta p span.postAuthor a {
+    color: #b3b3b3;
+}
+
+.fashionPost .postContent {
+    width: calc(100% - 120px);
+    margin-top: -90px;
+    padding: 3rem;
+    background-color: white;
+}
+
+.fashionPost .postContent h3 {
+    margin-bottom: 1.5rem;
+    font-size: 24px;
+}
+
+.fashionPost .postContent a.postLink {
+    display: block;
+    width: fit-content;
+    margin: 3rem 0 1rem;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ee76ad;
+    border-radius: 30px;
+    background-color: #ee76ad;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+    user-select: none;
+}
+
+.fashionPost .postContent a.postLink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.fashionPost .postContent a.postLink:active, .postContent a.postLink:focus {
+    border-color: #40e894;
+    background-color: #4bea9b;
+    color: #212529;
+}
+

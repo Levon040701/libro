@@ -1,0 +1,34 @@
+main#about {
+    padding: 30px 15px;
+}
+
+#about .pageContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about .pageContainer .image, #about .pageContainer .content {
+    width: 50%;
+    padding: 0 15px;
+}
+
+#about .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about .content h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+#about .pageContainer .footer {
+    margin-top: 3rem;
+    padding: 0 15px;
+}
+
+#about .footer h3 {
+    margin: 3rem 0 1.5rem;
+    font-size: 1.75rem;
+}
+

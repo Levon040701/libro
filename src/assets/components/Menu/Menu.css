@@ -1,0 +1,59 @@
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+    width: 100%;
+    height: calc(100vh + 5px);
+    background: linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+}
+
+nav>* {
+    padding: 0 3rem;
+    text-align: end;
+}
+
+button.menuClose {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 48px;
+    line-height: 0;
+}
+
+.navbar {
+    margin-bottom: 3rem;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.navbar li {
+    margin: 10px 0;
+}
+
+.navbar a {
+    padding: 5px 0;
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.copyright span {
+    color: rgba(255, 255, 255, 1);
+}
+

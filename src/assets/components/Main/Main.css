@@ -1,0 +1,88 @@
+main {
+    padding: 30px;
+}
+
+@media (min-width: 768px) {
+    main {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    main {
+        position: absolute;
+        right: 0;
+        width: 50%;
+    }
+}
+
+#home .articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+#home .articles .col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+    #home .articles article {
+        margin-bottom: 30px;
+    }
+}
+
+#home .articles .articleImage {
+    margin-bottom: 1.5rem;
+}
+
+#home .articles .articleImage a {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    line-height: 0;
+}
+
+#home .articles .articleImage img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+#home .articles article:hover img {
+    transform: scale(1.1);
+}
+
+#home .articleInfo {
+    display: flex;
+    gap: 6px;
+}
+
+#home .articleInfo a {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    color: #ee76ad;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+#home .articleInfo a:hover {
+    color: grey;
+}
+
+#home .articles .articleContent {
+    padding-bottom: 1.5rem;
+}
+
+#home .articles h3 {
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 400;
+}
+

@@ -1,0 +1,42 @@
+.travelPost {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.travelPost>a {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.travelPost .postContent {
+    width: calc(100% - 150px);
+    padding-left: 30px;
+}
+
+.travelPost .postContent h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+}
+
+.travelPost .postContent .postMeta {
+    font-size: 17px;
+}
+
+.travelPost .postMeta span:not(:first-child) a::before {
+    padding: 0 12px;
+    content: "|";
+}
+
+.travelPost .postMeta a, .postMeta a:hover {
+    color: #b3b3b3;
+}
+
+.travelPost .postMeta .postAuthor a, .travelPost .postMeta .postAuthor a:hover {
+    color: #737373;
+}
+

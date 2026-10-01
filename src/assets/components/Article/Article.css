@@ -1,0 +1,70 @@
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.articles .col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+    .articles article {
+        margin-bottom: 30px;
+    }
+}
+
+.articles .articleImage {
+    margin-bottom: 1.5rem;
+}
+
+.articles .articleImage a {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    line-height: 0;
+}
+
+.articles .articleImage img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.articles article:hover img {
+    transform: scale(1.1);
+}
+
+.articleInfo {
+    display: flex;
+    gap: 6px;
+}
+
+.articleInfo a {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    color: #ee76ad;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.articleInfo a:hover {
+    color: grey;
+}
+
+.articles .articleContent {
+    padding-bottom: 1.5rem;
+}
+
+.articles h3 {
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 400;
+}
+

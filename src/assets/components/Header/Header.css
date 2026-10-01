@@ -1,0 +1,62 @@
+header {
+    position: relative;
+    height: 641px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    header {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        position: fixed;
+        width: 50%;
+    }
+}
+
+.navContainer {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+}
+
+.logo a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.logo a:hover {
+    color: white;
+}
+
+button.menuOpen {
+    border: none;
+    background-color: transparent;
+}
+
+button.menuOpen span {
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: white;
+}
+
+button.menuOpen .middleBar {
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+button.menuOpen:hover .middleBar {
+    margin: 8px 0;
+}
+

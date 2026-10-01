@@ -1,0 +1,22 @@
+.footer .socials {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 1.75rem;
+}
+
+.footer .socials li {
+    margin: 0 10px 10px 0;
+    font-size: 1.75rem;
+}
+
+.footer .socials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+

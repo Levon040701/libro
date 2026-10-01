@@ -1,0 +1,11 @@
+main#model {
+    padding: 0;
+}
+
+#model .postsContainer {
+    width: 100%;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
