@@ -3,6 +3,7 @@
   "private": true,
   "homepage": "https://levon040701.github.io/libro/",
   "version": "0.0.0",
+  "homepage": "https://levon040701.github.io/libro/",
   "type": "module",
   "scripts": {
     "dev": "vite",
