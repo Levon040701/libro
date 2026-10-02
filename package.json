@@ -1,6 +1,7 @@
 {
   "name": "react_libro",
   "private": true,
+  "homepage": "https://levon040701.github.io/libro/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
